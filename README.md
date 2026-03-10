@@ -21,13 +21,6 @@ O desenvolvimento atual foca nos seguintes pilares tecnicos de CSS:
 * index.html: Arquivo principal com a estrutura do portal.
 * style.css: Folha de estilo contendo todas as regras de layout e identidade visual.
 
-## Roadmap de Evolucao
-Este projeto esta em constante desenvolvimento e seguira o seguinte cronograma de expansao:
-1. Implementacao de interatividade via JavaScript puro (DOM Manipulation).
-2. Refatoracao para utilizacao de pre-processadores CSS (SASS/SCSS).
-3. Migracao e modularizacao do projeto utilizando frameworks modernos como React ou Angular.
-4. Integracao com APIs externas para consumo de dados em tempo real.
-
 ## Instrucoes de Execucao
 Para visualizar o projeto localmente:
 1. Clone o repositorio para sua maquina.
