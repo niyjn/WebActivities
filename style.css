@@ -118,6 +118,8 @@ body {
 .container-3, .container-6 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
     background: #1a1e2e;
     padding: 20px;
