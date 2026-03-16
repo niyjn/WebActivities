@@ -120,6 +120,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 15px;
     margin-bottom: 30px;
     background: #1a1e2e;
     padding: 20px;
