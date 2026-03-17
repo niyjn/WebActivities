@@ -82,10 +82,18 @@ body {
     color: #90a4ae;
     text-decoration: none;
     font-size: 0.95rem;
-    display: block;
+    display: flex;
+    align-items: center;
     padding: 10px;
     border-radius: 4px;
     transition: all 0.3s ease;
+}
+
+.side-menu ul li a::before {
+    content: '◈';
+    margin-right: 10px;
+    color: #3a446a;
+    transition: color 0.3s;
 }
 
 .side-menu ul li a:hover {
@@ -95,12 +103,21 @@ body {
     border-left: 4px solid #4fc3f7;
 }
 
+.side-menu ul li a:hover::before {
+    color: #4fc3f7;
+}
+
 .status-panel {
     margin-top: 40px;
     padding: 15px;
     border: 1px dashed #3a446a;
     border-radius: 4px;
     background: #0d111a;
+}
+
+.status-panel p::before {
+    content: '⚡';
+    margin-right: 8px;
 }
 
 .status-panel span {
@@ -167,6 +184,16 @@ body {
     margin-bottom: 20px;
     border-left: 4px solid #4fc3f7;
     padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.content-area h2::before {
+    content: '>';
+    margin-right: 15px;
+    color: #4fc3f7;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
 }
 
 .card {
