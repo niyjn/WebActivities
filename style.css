@@ -123,6 +123,13 @@ body {
 .status-panel span {
     color: #4caf50;
     font-weight: bold;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; text-shadow: 0 0 5px #4caf50; }
+    50% { opacity: 0.5; text-shadow: 0 0 15px #4caf50; }
+    100% { opacity: 1; text-shadow: 0 0 5px #4caf50; }
 }
 
 .content-area {
@@ -160,6 +167,18 @@ body {
     width: 100%;
     aspect-ratio: 1 / 1;
     border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-10px) scale(1.05);
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(-10px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(-10px); }
 }
 
 .box-1 { background-color: #ff5252; }
